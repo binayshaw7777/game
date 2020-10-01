@@ -1,5 +1,6 @@
 0.8.5
-= Added
+What's New? Check this out!
+= Things we've Added - 
   Zones folder for holding zone files
   Added mom_sj_particle_trail_enable in order to toggle stickybomb trail visibility
   Added SJ settings to the game settings panel
@@ -29,7 +30,7 @@
   Backported Alien Swarm's postprocess_controller entity
   Added a 1/10000 chance for a wild wild western rider on your rockets
 
-= Fixed
+= Things we've Fixed - 
   Fixed paint doing damage to buttons when using +paint with other weapons out
   Fixed the map finished panel status messages not being reset when using mom_restart or mom_reset
   Fixed keyboard bindings not displaying or updating properly in the options menu
@@ -76,7 +77,7 @@
   Removed weapon lowering functionality
   Fixed sticky charge meter and crosshair not hiding when leaderboards were open
 
-= Improved
+= Improvements we made -
   Made the leaderboards stay open when tab is released if the user has right clicked it
   Removed all cvar_value fields from resource files since defaults are set in code
   Various VGUI improvements not seen by the user
@@ -108,8 +109,8 @@
   RichText (chat, console) panels render more accurately, have shift + click selection, and scroll-by-selection
   HUD based elements now match new UI direction
 
-0.8.4
-= Added
+0.8.4 What's New? Check this out!
+= Things we Added - 
   Added Stickybomb Launcher from TF2 and the Sticky Jumping gamemode
   Stickybombs are networked to others in a lobby
   Added "mom_sj_stickybomb_drawdelay", defaulted to 0
@@ -127,7 +128,7 @@
   Added TF2 override scripts inside "custom/overrides/scripts/" with a README on how to use them (weapon model hotswitching has been removed in favor of these)
   Added "give_weapon" command that autocompletes which weapons you can give yourself depending on gamemodes
 
-= Fixed
+= Things we've Fixed -
   Fixed changing weapons from and to the rocket launcher allowing faster rocket firing
   Fixed TF2 materials from going pitch black
   Fixed showing default "dots" crosshair with weapon crosshairs and fix custom crosshair files
@@ -140,7 +141,7 @@
   Fixed ConVarRefs being able to bypass ConVar_Validated validator funcs
   Fixed modals (settings panel, paintgun panel) not preventing input to the game
 
-= Improved
+= Improvements we made -
   Make RJ/SJ follow the other gamemodes' start zone logic (reset on landing, limit speed on enter)
   Center fire is now the default RJ firing mode to better cater to newer players
   Officially changed the map prefix for RJ from "jump_" to "rj_"
