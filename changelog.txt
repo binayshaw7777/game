@@ -30,7 +30,7 @@ What's New? Check this out!
   Backported Alien Swarm's postprocess_controller entity
   Added a 1/10000 chance for a wild wild western rider on your rockets
 
-= Things we've Fixed - 
+= Things we've Fixed- 
   Fixed paint doing damage to buttons when using +paint with other weapons out
   Fixed the map finished panel status messages not being reset when using mom_restart or mom_reset
   Fixed keyboard bindings not displaying or updating properly in the options menu
